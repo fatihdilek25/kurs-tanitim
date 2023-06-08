@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.navbar {
+  background: linear-gradient(
+    112.1deg,
+    rgb(32, 38, 57) 11.4%,
+    rgb(63, 76, 119) 70.2%
+  );
+
+  .nav-item a:hover {
+    transform: scale(1.1);
+    transition: .5s ease-in-out;
+  }
+}
+
+
+// slider
+
+.carousel{
+    position: relative;
+    
+    img{
+        border-radius: 50%;
+        height: 450px;
+        object-fit: cover;
+        opacity: 0.9;
+    }
+
+    &-caption{
+        position: absolute;
+        top: 50%;
+        h1, p{
+            text-shadow: 1px 5px 4px black;
+        }
+    }
+}
+
+.container .row ul li:hover{
+  transform: scale(1.05);
+}
+
+.album .container .row .col .card:hover{
+  transform: scale(1.05);
+  transition: .5s ease-in-out;
+  box-shadow: 0 0 10px gray;
+}
+
+
+// blog
+
+.title{
+  background: linear-gradient(115deg, rgb(34, 34, 34) 7.3%, rgb(0, 40, 60) 51.6%, rgb(0, 143, 213) 93.4%);
+
+  .breadcrumb-item::before{
+    color: white;
+  }
+}
+
+.accordion{
+  background: linear-gradient(to left, rgba(77,126,190,0.767), rgba(142, 164, 206, 0.623));
+}
+
+
